@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quackfactory.duckapp.FactActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/did_you_know_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did you know..."
+        android:textSize="32sp"
+        android:textColor="@color/colorFont"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/fact_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingHorizontal="20sp"
+        android:text="fact goes here"
+        android:textAlignment="center"
+        android:textColor="@color/colorFont"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/did_you_know_textView"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/refresh_fact_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New fact please!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fact_textView"
+        app:layout_constraintVertical_bias="0.55"
+        android:textColor="@color/colorFont"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/fact_return_home_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:fontFamily="monospace"
+        android:text="Return home"
+        android:textColor="@color/colorFont"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/refresh_fact_button"
+        app:layout_constraintVertical_bias="0.125" />
+</androidx.constraintlayout.widget.ConstraintLayout>

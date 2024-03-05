@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DuckApp</string>
+    <string name="duck_api_url">https://random-d.uk/api/random</string>
+</resources>
