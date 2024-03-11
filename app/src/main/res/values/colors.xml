@@ -8,6 +8,6 @@
     <!-- from this color hunt palette: https://colorhunt.co/palette/fce9f1f1d4e573bbc9080202 -->
     <color name="colorPrimary">#FCE9F1</color>
     <color name="colorPrimaryDark">#e8c0d7</color>
-    <color name="colorAccent">#73BBC9</color>
     <color name="colorFont">#080202</color>
+    <color name="colorAccent">#73BBC9</color>
 </resources>
