@@ -1,0 +1,1 @@
+Built with Android Studio, this application allows users to learn fun facts, see pictures, and donate a flock of ducks. Java was used to program the logic. An ArrayList was used to enable 'random' fact generation, and the Volley and Picasso libraries were used to pull and display images from the Random-d.uk API. Lastly, Android's Intent class was used to launch the donation page.
