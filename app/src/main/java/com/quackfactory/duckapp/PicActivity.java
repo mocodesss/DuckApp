@@ -55,7 +55,7 @@ public class PicActivity extends AppCompatActivity {
 
     }
 
-    public void getDuckPic(String url){     // try making this return nothing: void
+    public void getDuckPic(String url){    
         // extract the json data
         RequestQueue queue = Volley.newRequestQueue(this);
 
